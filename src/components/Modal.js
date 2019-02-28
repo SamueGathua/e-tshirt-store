@@ -26,7 +26,7 @@ class Modal extends Component {
         alt="product"/>
         <h5>{title}</h5>
         <h5 className="text-muted">
-        price : ${price}
+        price : Ksh{price}
         </h5>
         <Link to= "/">
           <ButtonContainer onClick={() =>closeModal()

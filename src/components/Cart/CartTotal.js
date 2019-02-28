@@ -25,13 +25,13 @@ function CartTotal({ value }){
     </button>
     </Link>
     <h5><span>subtotal :</span>
-    <strong>$ {cartSubTotal}</strong>
+    <strong>Ksh {cartSubTotal}</strong>
     </h5>
     <h5><span>tax :</span>
-    <strong>$ {cartTax}</strong>
+    <strong>Ksh {cartTax}</strong>
     </h5>
     <h5><span>total :</span>
-    <strong>$ {cartTotal}</strong>
+    <strong>Ksh {cartTotal}</strong>
     </h5>
     </div>
     </div>

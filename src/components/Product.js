@@ -47,7 +47,7 @@ class Product extends Component {
           {title}
         </p>
         <h5 className="text-blue mb-0">
-        <span className="mr-1">$ </span>
+        <span className="mr-1">Ksh </span>
         {price}
         </h5>
       </div>
