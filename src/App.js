@@ -10,6 +10,7 @@ import Cart from './components/Cart';
 import Footer from './components/Footer'
 import ProductList from './components/ProductList';
 import Modal from './components/Modal';
+import Login from './components/Login';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
       <Switch>
         <Route exact path="/" component={ProductList} />
         <Route path="/details" component={Details} />
+        <Route path="/login" component={Login} />
         <Route path="/cart" component={Cart} />
         <Route  component={Default} />
       </Switch>

@@ -35,3 +35,6 @@ body {
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
+.fix-size-title{
+  overflow-y: hidden;
+}

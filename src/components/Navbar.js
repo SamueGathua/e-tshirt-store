@@ -4,6 +4,7 @@ import logo from '../logo.png';
 import styled from 'styled-components';
 import{ButtonContainer} from './Button';
 
+
 class Navbar extends Component {
   render() {
     return (
@@ -18,7 +19,13 @@ class Navbar extends Component {
     Products
     </Link>
     </li>
+    <li className="nav-item ml-5">
+    <Link to="/login" className="nav-link">
+    Login
+    </Link>
+    </li>
     </ul>
+
     <Link to="/cart" className="ml-auto">
     <ButtonContainer>
     <span className="mr-2">
