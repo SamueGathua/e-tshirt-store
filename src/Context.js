@@ -20,7 +20,7 @@ class ProductProvider extends Component {
     this.setProducts()
   }
   setProducts = () =>{
-    axios.get('https://e-tshirt-store.herokuapp.com/api/v2/products').then(
+    axios.get('http://127.0.0.1:5000/api/v2/products').then(
       (response)=>{
       this.setState({
         products:response.data.data
